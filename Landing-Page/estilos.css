@@ -1,0 +1,232 @@
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header";
+    background-color:  black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width:1050px){
+    .container{
+        grid-template-areas: 
+        "header header";
+    }
+}
+header{
+    grid-area: header flex;
+    font-family: sans-serif;
+    margin: 0 auto;
+    align-content: center;
+    background-color: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul li{
+    float: left;
+}
+nav{
+    height: 60px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+.logo{
+    display:inline;
+    width: 30px;
+    height: 30px;
+    margin: 0%;
+    border-bottom: 10px;
+    background-color: black;
+}
+ul{
+    list-style: none;
+}
+#menu li>a{
+    background-color: black;
+    color:gray;
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    min-width: 100px;
+}
+#menu li>a:hover{
+    color: white;
+    background-color: #000;
+}
+#menu>li{
+    float:left;
+    text-align: center ;
+}
+hr{
+    border-color: rgb(0, 223, 0);
+}
+.container-img{
+    display: grid;
+}
+.giveaway{
+    display: block;
+    background-color: rgb(79, 79, 79);
+    color: white;
+    margin: 0;
+    height: 50px;
+    min-width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.giveaway a{
+    color: white;
+    cursor:context-menu;
+    text-decoration: none;
+}
+.giveaway>a:hover{
+    text-decoration: underline;
+
+}
+.img-big{
+    display: grid;
+    background-color: rgb(36, 36, 36);
+    gap: 8px;
+}
+.text1{
+    position:absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.text2{
+    position:absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.text3{
+    position:absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+.text1{
+    text-align: center;
+}
+.text2{
+    text-align: center;
+}
+.text3{
+    text-align: center;
+}
+.exclusive{
+    text-align: left;
+}
+.img-small{
+    display: block;
+    gap: 8px;
+    background-color: rgb(36, 36, 36);
+    position: relative;
+}
+
+.blck-p1{
+    display: flex;
+    gap: 8px;
+}
+.blck-p2{
+    display: flex;
+    gap: 8px;
+}
+.blck-p3{
+    display: flex;
+    gap: 8px;
+}
+footer{
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    color: gray;
+    list-style: none;
+    grid-area: footer;
+    align-content: center;
+    margin: 0%;
+    justify-content: center;
+}
+footer ul{
+    padding: 40px;
+}
+footer li{
+    padding: 5px;
+}
+.shop{
+    color: white;
+}
+.shop a{
+    color: gray;
+    cursor:context-menu;
+    text-decoration: none;
+}
+.shop li>a:hover{
+    color: white;
+    background-color: #000;
+}
+.explore{
+    color: white;
+}
+.explore a{
+    color: gray;
+    cursor:context-menu;
+    text-decoration: none;
+}
+.explore li>a:hover{
+    color: white;
+    background-color: #000;
+}
+.support{
+    color: white;
+}
+.support a{
+    color: gray;
+    cursor:context-menu;
+    text-decoration: none;
+}
+.support li>a:hover{
+    color: white;
+    background-color: #000;
+}
+.company{
+    color: white;
+}
+.company a{
+    color: gray;
+    cursor:context-menu;
+    text-decoration: none;
+}
+.company li>a:hover{
+    color: white;
+    background-color: #000;
+}
+.shop li>a:hover{
+    color: white;
+    background-color: #000;
+}
+.contact{
+    color: rgb(0, 223, 0);
+}
+.contact ul{
+    list-style-type: none;
+}
+.contact li{
+    float: left;
+    text-align: center;
+    width: 2em;
+}
+.contact a{
+    color: gray;
+    cursor:context-menu;
+    text-decoration: none;
+    color: rgb(0, 223, 0);
+}
+.contact li>a:hover{
+    color: white;
+    background-color: #000;
+}
